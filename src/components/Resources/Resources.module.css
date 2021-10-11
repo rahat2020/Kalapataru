@@ -1,0 +1,71 @@
+.head{
+    color: #727171;
+    font-weight: 500;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.headTitle{
+    margin-left: 25rem;
+    position: absolute;
+    margin-top: -9rem;
+    font-size: 8.50em;
+    color: rgba(2, 0, 0, 0.05);
+    font-family: 'Playfair Display', serif;
+}
+.image{
+    margin-right: 0.80em;
+}
+.para{
+    color: #727171;
+    font-weight: 500;
+}
+.resource{
+    display: flex;
+}
+.btn{
+    margin-left: 20rem;
+    border: none;
+    background: none;
+    font-size: 0.75em;
+    font-weight: 500;
+   transition:all .5s ease;
+   transition-duration: 5s;
+}
+.btn:hover{
+    transform: scale(1.1);
+    font-weight: 500;
+}
+.btn:hover .right{
+    transition:all .5s ease;
+    transform: rotate(180deg);
+}
+.right{
+    color: #000000d3;
+    font-size: 1em !important;
+    margin-right: 0.75em;
+}
+@media only screen and (max-width: 468px) {
+    .headTitle{
+        display: none;
+    }
+    .resource{
+        display: block;
+    }
+    .btn{
+        margin-left: 10rem;
+        border: none;
+        background: none;
+        font-size: 0.75em;
+        font-weight: 500;
+       transition:all .5s ease;
+       transition-duration: 5s;
+    }
+   }
+ @media only screen and (max-width: 700px) {
+     .headTitle{
+         display: none;
+     }
+     .resource{
+        display: block;
+    }
+   }

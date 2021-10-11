@@ -1,0 +1,40 @@
+.menu{
+    width: 300px; height:100vh;
+    background-image: linear-gradient(#808080da, #00000086) ,url('../../img/imageOne.jpg');
+    position:fixed;
+    top: 0;
+    right: -400px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.5s ease;
+}
+.active{
+    right: 0;
+}
+.ulItems {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size:20px;
+    font-weight: 300;
+    /* color: white; */
+    width: 60%;
+}
+li{
+    margin-bottom: 15px;
+}
+.liItems{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+.liItems:hover{
+    color: #ffc446;
+}
+
+a:hover{
+    font-weight: 500;
+}

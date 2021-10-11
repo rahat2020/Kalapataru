@@ -1,0 +1,28 @@
+.head{
+    color: #727171;
+    font-weight: 500;
+    font-size: 1em;
+    margin-bottom: 3em;
+}
+.locate{
+    width:100%;
+    height:100%;
+}
+#image{
+    width:100%;
+}
+
+.gotomap{
+    position:absolute;
+    margin-top: -1.5rem;   
+}
+.gomap{
+    border: none;
+    background: #000;
+    color: #fff;
+    font-size: 0.79em;
+    transition: all 0.5s ease;
+}
+.gomap:hover{
+    transform: scale(1.1);
+}
